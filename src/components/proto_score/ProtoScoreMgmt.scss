@@ -1,0 +1,36 @@
+.proto__score__header {
+  margin: 30px 0 15px 650px;
+  font-weight: 500;
+  font-size: large;
+}
+
+.ant-input-number {
+  width: 65px;
+}
+
+.input__number--home {
+  margin-left: 0px;
+}
+
+.input__number--away {
+  margin-right: 0px;
+}
+
+.input__edit {
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.input__confirm {
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.input__cancel {
+  color: #fa541c;
+  cursor: pointer;
+}
+
+.input__edit__disabled {
+  color: #b9b9b9;
+}

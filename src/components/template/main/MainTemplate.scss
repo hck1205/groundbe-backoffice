@@ -1,0 +1,8 @@
+@import "assets/styles/main";
+
+.page-template {
+  display: flex;
+  flex-direction: column;
+  width: $app-page-width;
+  margin: auto;
+}

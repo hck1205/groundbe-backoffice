@@ -1,0 +1,8 @@
+export { default as MainContainer } from "containers/main"
+export { default as MatchPreviewContainer } from "containers/matchPreview"
+export { default as LiveScoreContainer } from "containers/liveScore"
+export { default as ProtoMatchmapContainer } from "containers/protoMatchmap"
+export { default as ProtoScoreMgmtContainer } from "containers/protoScoreMgmt"
+export { default as LeagueMgmtContainer } from "containers/leagueMgmt"
+export { default as TeamMgmtContainer } from "containers/teamMgmt"
+export { default as UserMgmtContainer } from "containers/userMgmt"

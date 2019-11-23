@@ -1,0 +1,71 @@
+{
+  "name": "groundbe-backoffice-v2",
+  "version": "1.0.0",
+  "description": "groundbe-backoffice-v2",
+  "main": "index.js",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.config",
+    "beta": "cross-env NODE_ENV=beta webpack --config ./config/webpack.config",
+    "build": "cross-env NODE_ENV=production webpack --config ./config/webpack.config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hck1205@bitbucket.org/groundbe/groundbe-backoffice-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/groundbe/groundbe-backoffice-v2#readme",
+  "browserslist": [
+    ">= 5% in KR",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-router-dom": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/gapi": "0.0.39",
+    "@types/node": "^12.7.12",
+    "@types/react": "^16.9.3",
+    "@types/react-dom": "^16.9.1",
+    "@types/react-helmet": "^5.0.11",
+    "@types/react-router-dom": "^5.1.0",
+    "antd": "^3.23.4",
+    "autoprefixer": "^9.6.1",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^6.0.0",
+    "css-loader": "^3.2.0",
+    "eventsource-polyfill": "^0.9.6",
+    "file-loader": "^4.2.0",
+    "fork-ts-checker-webpack-plugin": "^1.5.0",
+    "html-webpack-plugin": "^3.2.0",
+    "include-media": "^1.4.9",
+    "mini-css-extract-plugin": "^0.8.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "typesafe-actions": "^4.4.2",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1",
+    "webpack-merge": "^4.2.2"
+  }
+}

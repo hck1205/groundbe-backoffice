@@ -1,0 +1,82 @@
+$common_margin: 5px;
+$common_size: 16px;
+$background: #f7f7fa;
+$borderColor: #dadada;
+$activeBackground: #1890ff;
+$activeBorderColor: #0365bf;
+
+.team__mgmt__container {
+  margin-top: 20px;
+}
+
+.team__mgmt__table__container {
+  margin-top: 20px;
+}
+
+.nation__tag {
+  background: $background;
+  border-color: $borderColor;
+  margin: $common_margin;
+  font-size: $common_size;
+}
+
+.selected__nation__tag {
+  background: $activeBackground;
+  border-color: $activeBorderColor;
+  margin: $common_margin;
+  font-size: $common_size;
+}
+
+.league__tag {
+  background: $background;
+  border-color: $borderColor;
+  margin: $common_margin;
+  font-size: $common_size;
+}
+
+.selected__league__tag {
+  background: $activeBackground;
+  border-color: $activeBorderColor;
+  margin: $common_margin;
+  font-size: $common_size;
+}
+
+.input__edit {
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.input__confirm {
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.input__cancel {
+  color: #fa541c;
+  cursor: pointer;
+}
+
+.input__edit__disabled {
+  color: #b9b9b9;
+}
+
+.avatar-uploader > .ant-upload {
+  width: 64px;
+  height: 64px;
+}
+
+.search__box__container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search__box {
+  width: 700px;
+}
+
+.teamname__copy__button {
+  margin-right: 12px;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+}

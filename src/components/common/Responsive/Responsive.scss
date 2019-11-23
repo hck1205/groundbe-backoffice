@@ -1,0 +1,16 @@
+/*
+@import "assets/styles/utils";
+
+.common.responsive {
+  width: $screen-small;
+  margin: 0 auto;
+
+  @include media("<screen-x") {
+    width: $tablet-large;
+  }
+
+  @include media("<tablet-xx") {
+    width: 100%;
+  }
+}
+*/

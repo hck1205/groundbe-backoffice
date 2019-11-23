@@ -1,0 +1,9 @@
+# IDE Files
+.vscode
+.history
+
+# Modules
+/node_modules
+
+# Build Files
+/dist
